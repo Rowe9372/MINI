@@ -1,0 +1,42 @@
+html,body,div,h1,h2,h3,p,ul,li,dl,dt,dd,span,input {
+								margin: 0px;
+								padding: 0px;
+}
+
+img {
+	border: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	color: #5f666b;
+	text-decoration: none;
+}
+a:hover {
+		color: #90140C;
+}
+body {
+	font: 12px "宋体";
+	color: #434343;
+	background-color: #ffffff;
+}
+.clearfix:after {
+				content: "";
+				height: 0;
+				line-height: 0;
+				display: block;
+				clear: both;
+				visibility: hidden;
+}
+.clearfix {
+			zoom: 1;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
